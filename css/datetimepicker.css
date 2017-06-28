@@ -1,0 +1,124 @@
+	.tableClass {
+		background: #f4a31f;
+		position: absolute;
+		width: 220px;
+		text-align: center;
+		border-collapse: collapse;
+		font-family: Trebuchet MS,Tahoma,Verdana,Arial,sans-;
+		font-family: Arial;
+		font-size: 1em;
+	}
+		.cellClass{
+			background: #F7F7F7;
+			width: 50px;
+			padding: 5px;
+			border: 1px solid #eeeeee;
+			padding:10px;
+			}
+			.tableClass td:hover {
+				cursor: pointer;
+				background: #FDF5CE;
+				color: #DC9405;
+				}
+		.rowClass{
+			background: #eeeeee;
+			color: #1c94c4;
+			cursor: pointer;	
+			font-weight: bold;
+		}   
+
+.timeInput, .dateInput{
+	outline: 0;
+	border: none;
+	background: transparent;
+	padding-left: 2px;
+    font-size: 100%;
+	height: 21px;
+	font-size: 12px;
+}
+
+.timeInput {
+	width: 55px;
+	line-height: 23px;
+	text-align: center;	display: inline-block;
+	vertical-align: top;
+}
+
+.dateInput {
+	width: 75px;
+	text-align: center;
+    line-height: 23px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.btnTime {
+	width: 17px;
+	height: 17px;
+	cursor: pointer;
+	float: right;
+	vertical-align: top;
+	background: url('../images/time.png')100% 100% no-repeat;
+	background-size: cover;
+	margin-top: 2px;
+	margin-right: 4px;
+}
+
+.divTime {
+	background-color: #fff;
+	border: 1px solid #cccccc;
+	width: 	80px;
+	display: inline-block;	
+	vertical-align: top;
+	height: 20px;
+    margin-top: 2px;
+    margin-right: 1px;
+}
+.divDate {
+   background-color: #fff;
+   border: 1px solid #cccccc;
+   width: 103px;
+   display: inline-block;
+   height: 20px;
+   margin-top: 2px;
+   margin-right: 1px;
+}
+.ui-datepicker-trigger { 
+	position: relative;
+	left:5px;
+	top: 3px;
+	cursor:pointer;
+	background: transparent;
+	border: transparent;
+	background-image: url("../images/calendar.png");
+	background-size: 16px;
+	background-repeat: no-repeat;
+	width: 18px;
+	height: 18px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.ui-datepicker-trigger:focus {outline:0;}
+
+.ui-datepicker .ui-datepicker-prev span {
+	background-image: url('../images/ui-icons_777777_256x240.png');
+	background-position:-80px -192px;
+}
+.ui-datepicker .ui-datepicker-next span {
+	background-image: url("../images/ui-icons_777777_256x240.png");
+	background-position:-48px -192px
+}
+.filter-control  {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+.filter-control .label {
+	padding-right: 5px;
+	display: inline-block;
+	vertical-align: middle;
+	text-align: center;
+} 
+.ui-datepicker .ui-datepicker-prev span, .ui-datepicker .ui-datepicker-next span {
+    color: transparent;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <title>Datetimepicker</title>
+        <link rel="stylesheet" href="css/datetimepicker.css">
+		<link rel="stylesheet" href="jquery/jquery-ui.min.css">
+
+		<script src="js/datetimepicker.js"></script>
+    </head>
+    <body>
+		<div class="container">
+			<div>
+				<div>From:</div>
+				<div id="datetimepicker"></div>
+			</div>
+			<div>
+				<div>To:</div>
+				<div id="datetimepicker2"></div>
+			</div>
+		</div>
+		
+		<script src="jquery/jquery-3.1.1.min.js"></script>
+		<script src="jquery/jquery-ui.min.js"></script>
+		
+		<script>
+			var picker = new DateTimepicker();
+			var fd = picker.addContainer('datetimepicker');
+			var td = picker.addContainer('datetimepicker2');
+		</script>
+    </body>
+</html>
