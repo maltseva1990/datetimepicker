@@ -10,8 +10,8 @@ For an inline calendar and time, simply attach the datepicker to a div or span.*
 /*Usage
 
 Include jquery-ui.min.css, jquery-3.1.1.min.js, jquery-ui.min.js, date in your page.
-Options is an optional javascript object with parameters explained below.
-You can also set options as data attributes on the intput elements, like <input type="text" data-time-format="H:i:s" />
+Options is an optional javascript object with parameters.
+You can set options as data attributes on the intput elements, like <input type="text" data-time-format="H:i:s" />
 
 */
 
